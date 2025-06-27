@@ -3341,6 +3341,7 @@ pub const ShaderFunction = extern struct {
     bytecode: Range = .{},
     entry: [*c]const u8 = null,
     d3d11_target: [*c]const u8 = null,
+    d3d11_filepath: [*c]const u8 = null,
 };
 
 pub const ShaderAttrBaseType = enum(i32) {
